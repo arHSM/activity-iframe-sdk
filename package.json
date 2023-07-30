@@ -1,0 +1,28 @@
+{
+    "name": "activity-iframe-sdk",
+    "version": "1.0.0",
+    "description": "A reimplementation of the Discord Activity Iframe SDK.",
+    "keywords": [
+        "discord",
+        "activities",
+        "sdk",
+        "reimplementation"
+    ],
+    "homepage": "https://github.com/arHSM/activity-iframe-sdk",
+    "author": "arHSM <hanseungmin.ar@gmail.com> (https://arhsm.cat/)",
+    "browser": "./lib/index.ts",
+    "repository": "github:arHSM/activity-iframe-sdk",
+    "scripts": {},
+    "type": "module",
+    "dependencies": {
+        "big-integer": "^1.6.51",
+        "events": "^3.3.0",
+        "lodash": "^4.17.21",
+        "uuid": "^9.0.0",
+        "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.196",
+        "@types/uuid": "^9.0.2"
+    }
+}
